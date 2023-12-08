@@ -1,0 +1,21 @@
+{
+  "name": "cb-darkturbo",
+  "displayName": "cb-darkturbo",
+  "description": "this is a dark theme which support many old turbo pascal color, it try to display different symbols as differnt color as possible and alos use some default colors from the Defaul Dark Modern theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark turbo pascal style",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark turbo theme turbo pascal style-color-theme.json"
+      }
+    ]
+  }
+}
