@@ -143,6 +143,7 @@
 			"scope": [
 				"keyword.type",
 				"keyword.other.using",
+				"keyword.other.directive.using",
 				"keyword.other.namespace",
 				"keyword.other.class",
 				"keyword.other.await",
@@ -154,6 +155,7 @@
 				"keyword.other.where",
 				"keyword.control.default",
 				"keyword.other.interface",
+				"storage.type.namespace.cs",
 
 				"meta.function.powershell",
 				"keyword.other.DML.sql",
@@ -249,7 +251,8 @@
 				"class",
 				"entity.name.type.class",
 				"variable.other.object",
-				"entity.name.type.tsx"
+				"entity.name.type.tsx",
+				
 			],
 			"settings": {
 				"foreground": "#2B91AF",
