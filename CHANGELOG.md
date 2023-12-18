@@ -4,6 +4,4 @@ All notable changes to the "cb-darkturbo" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
-
-- Initial release
+2023.12.15 initial version
