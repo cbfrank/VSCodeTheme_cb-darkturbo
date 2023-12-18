@@ -143,6 +143,7 @@
 			"scope": [
 				"keyword.type",
 				"keyword.other.using",
+				"keyword.other.import.java",
 				"keyword.other.directive.using",
 				"keyword.other.namespace",
 				"keyword.other.class",
@@ -170,9 +171,17 @@
 				"storage.type.interface",
 				"keyword.operator.new.ts",
 				"variable.language.super.tsx",
+				"variable.language.java",
 				"variable.language.this",
 				"storage.type.js",
-				"keyword.control.razor.directive"
+				"keyword.control.razor.directive",
+
+				"storage.type.def.groovy",
+				"storage.type.primitive.java",
+				"keyword.control.new.java",
+				"keyword.control.java",
+				"storage.type.primitive.array.java",
+				"keyword.other.package.java"
 			],
 			"settings": {
 				"foreground": "#FF0000"
@@ -187,6 +196,17 @@
 			"settings": {
 				"foreground": "#FF0000",
 				"fontStyle": "italic"
+			}
+		},
+		// annotation ....
+		{
+			"scope": [
+				"storage.type.annotation.java",
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				"foreground": "#35f555",
+				"fontStyle": "italic bold"
 			}
 		},
 		//keywords control: if else switch....
@@ -239,7 +259,9 @@
 				"namespace",
 				"entity.name.namespace",
 				"entity.name.type.namespace",
-				"entity.name.type.module"
+				"entity.name.type.module",
+				"storage.modifier.import.java",
+				"storage.modifier.package.java"
 			],
 			"settings": {
 				"foreground": "#FF80BF"
@@ -252,6 +274,9 @@
 				"entity.name.type.class",
 				"variable.other.object",
 				"entity.name.type.tsx",
+				"entity.other.inherited-class.java",
+				"storage.type.java",
+				"storage.type.object.array.java"
 				
 			],
 			"settings": {
@@ -307,7 +332,7 @@
 				"variable.other.object.property",
 				"entity.name.variable.property",
 				"variable.other.member.powershell",
-				"entity.other.attribute-name",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#a2ca00",
@@ -319,12 +344,24 @@
 			"scope": [
 				"field",
 				"entity.name.variable.field",
-				"source.sql"
+				"source.sql",
+				"constant.other.key.groovy",
+				"variable.other.definition.java"
 			],
 			"settings": {
 				"foreground": "#c1a500",
 			}
 		},
+		//readonly fields
+		{
+			"scope": [
+				"variable.other.constant.property" //for java
+			],
+			"settings": {
+				"foreground": "#c1a500",
+				"fontStyle": "bold underline"
+			}
+		},		
 		//local variables
 		{
 			"scope": [
@@ -341,7 +378,8 @@
 			"scope": [
 				"entity.name.tag",
 				"support.type.property-name.json",
-				"meta.object-literal.key"
+				"meta.object-literal.key",
+				"keyword.other.definition.ini"
 				
 			],
 			"settings": {
@@ -352,7 +390,9 @@
 		{
 			"scope": [
 				"entity.name.function",
-				"text.yaml.jinja"
+				"text.yaml.jinja",
+				"meta.method.groovy",
+				"source.groovy"
 			],
 			"settings": {
 				"foreground": "#FFFF00",
@@ -396,6 +436,10 @@
 				"keyword.control.razor.directive.codeblock",
 				"punctuation.curlybrace.open.cs",
 				"punctuation.curlybrace.close.cs",
+				"punctuation.separator.key-value.ini",
+				"punctuation.definition.separator.groovy",
+				"punctuation.definition.seperator.key-value.groovy",
+				"punctuation.terminator.java"
 			],
 			"settings": {
 				"foreground": "#00ff00"
@@ -410,7 +454,9 @@
 				"keyword.preprocessor.region.cs",
 				"comment.block.documentation.tsx",
 				"comment.block.js",
-				"comment.block.razor"
+				"comment.block.razor",
+				"comment.block.groovy",
+				"comment.block.javadoc.java"
 			],
 			"settings": {
 				"foreground": "#57a64a",
@@ -422,7 +468,8 @@
 				"comment.line.double-slash.cs",
 				"comment.line.powershell",
 				"punctuation.definition.comment.powershell",
-				"comment.line.number-sign.yaml"
+				"comment.line.number-sign.yaml",
+				"comment.line.double-slash"
 			],
 			"settings": {
 				"foreground": "#C0C0C0",
@@ -441,7 +488,8 @@
 			"scope": [
 				"string.quoted.double",
 				"string.quoted.single.sql",
-				"string.quoted.single.yaml"
+				"string.quoted.single.yaml",
+				"string.quoted.single.groovy"
 			],
 			"settings": {
 				"foreground": "#00ffff"
@@ -460,10 +508,11 @@
 		//generic class template type
 		{
 			"scope": [
-				"meta.interpolation"
+				"meta.interpolation",
+				"storage.type.generic.java"
 			],
 			"settings": {
-				"foreground": "#ff00ff"
+				"foreground": "#ff80ff"
 			}
 		}
 	],
