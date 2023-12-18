@@ -181,7 +181,8 @@
 				"keyword.control.new.java",
 				"keyword.control.java",
 				"storage.type.primitive.array.java",
-				"keyword.other.package.java"
+				"keyword.other.package.java",
+				"keyword.other.special-method.dockerfile"
 			],
 			"settings": {
 				"foreground": "#FF0000"
@@ -392,7 +393,8 @@
 				"entity.name.function",
 				"text.yaml.jinja",
 				"meta.method.groovy",
-				"source.groovy"
+				"source.groovy",
+				"meta.function-call.python"
 			],
 			"settings": {
 				"foreground": "#FFFF00",
@@ -439,7 +441,11 @@
 				"punctuation.separator.key-value.ini",
 				"punctuation.definition.separator.groovy",
 				"punctuation.definition.seperator.key-value.groovy",
-				"punctuation.terminator.java"
+				"punctuation.terminator.java",
+				"punctuation.separator.period.python",
+				"punctuation.separator.dict.python",
+				"punctuation.separator.colon.python",
+				"punctuation.separator.element.python"
 			],
 			"settings": {
 				"foreground": "#00ff00"
@@ -469,7 +475,8 @@
 				"comment.line.powershell",
 				"punctuation.definition.comment.powershell",
 				"comment.line.number-sign.yaml",
-				"comment.line.double-slash"
+				"comment.line.double-slash",
+				"comment.line.number-sign.python"
 			],
 			"settings": {
 				"foreground": "#C0C0C0",
@@ -489,7 +496,9 @@
 				"string.quoted.double",
 				"string.quoted.single.sql",
 				"string.quoted.single.yaml",
-				"string.quoted.single.groovy"
+				"string.quoted.single.groovy",
+				"string.quoted.single.python",
+				"string.quoted.multi.python"
 			],
 			"settings": {
 				"foreground": "#00ffff"
