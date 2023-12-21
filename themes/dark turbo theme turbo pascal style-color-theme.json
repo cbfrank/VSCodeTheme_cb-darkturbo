@@ -157,6 +157,8 @@
 				"keyword.control.default",
 				"keyword.other.interface",
 				"storage.type.namespace.cs",
+				"keyword.control.context.using",
+				"storage.type.var.cs",
 
 				"meta.function.powershell",
 				"keyword.other.DML.sql",
