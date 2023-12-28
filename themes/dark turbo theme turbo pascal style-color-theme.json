@@ -447,7 +447,9 @@
 				"punctuation.separator.period.python",
 				"punctuation.separator.dict.python",
 				"punctuation.separator.colon.python",
-				"punctuation.separator.element.python"
+				"punctuation.separator.element.python",
+				"keyword.other.hashtable.begin.powershell",
+				"keyword.other.array.begin.powershell"
 			],
 			"settings": {
 				"foreground": "#00ff00"
