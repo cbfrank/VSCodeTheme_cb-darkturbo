@@ -184,7 +184,11 @@
 				"keyword.control.java",
 				"storage.type.primitive.array.java",
 				"keyword.other.package.java",
-				"keyword.other.special-method.dockerfile"
+				"keyword.other.special-method.dockerfile",
+
+				//pascal
+				"storage.type.pascal"
+
 			],
 			"settings": {
 				"foreground": "#FF0000"
@@ -219,7 +223,7 @@
 				"keyword.control.conditional",
 				"keyword.control.switch",
 				"keyword.control.case",
-				"keyword.control.powershell"
+				"keyword.control.powershell",
 			],
 			"settings": {
 				"foreground": "#59afff",
@@ -235,7 +239,8 @@
 				"keyword.control.finally",
 				"keyword.control.loop",
 				"keyword.control.powershell",
-				"keyword.control.trycatch"
+				"keyword.control.trycatch",
+				"keyword.control.pascal"
 			],
 			"settings": {
 				"foreground": "#FF0080",
@@ -279,7 +284,8 @@
 				"entity.name.type.tsx",
 				"entity.other.inherited-class.java",
 				"storage.type.java",
-				"storage.type.object.array.java"
+				"storage.type.object.array.java",
+				"entity.name.type.pascal"
 				
 			],
 			"settings": {
@@ -370,19 +376,21 @@
 			"scope": [
 				"entity.name.variable.local",
 				"variable.other.readwrite",
-				"variable.other.readwrite.powershell"
+				"variable.other.readwrite.powershell",
+				"variable.other.pascal"
 			],
 			"settings": {
 				"foreground": "#ffbaa6"
 			}
 		},
-		//xml tags, json keys
+		//xml tags, json keys, section
 		{
 			"scope": [
 				"entity.name.tag",
 				"support.type.property-name.json",
 				"meta.object-literal.key",
-				"keyword.other.definition.ini"
+				"keyword.other.definition.ini",
+				"entity.name.section.inno"
 				
 			],
 			"settings": {
@@ -396,7 +404,8 @@
 				"text.yaml.jinja",
 				"meta.method.groovy",
 				"source.groovy",
-				"meta.function-call.python"
+				"meta.function-call.python",
+				"source.inno"
 			],
 			"settings": {
 				"foreground": "#FFFF00",
@@ -449,7 +458,8 @@
 				"punctuation.separator.colon.python",
 				"punctuation.separator.element.python",
 				"keyword.other.hashtable.begin.powershell",
-				"keyword.other.array.begin.powershell"
+				"keyword.other.array.begin.powershell",
+				"meta.section.pascal"
 			],
 			"settings": {
 				"foreground": "#00ff00"
@@ -480,7 +490,9 @@
 				"punctuation.definition.comment.powershell",
 				"comment.line.number-sign.yaml",
 				"comment.line.double-slash",
-				"comment.line.number-sign.python"
+				"comment.line.number-sign.python",
+				"comment.line.semicolon.inno",
+				"comment.line.pascal"
 			],
 			"settings": {
 				"foreground": "#C0C0C0",
@@ -502,7 +514,9 @@
 				"string.quoted.single.yaml",
 				"string.quoted.single.groovy",
 				"string.quoted.single.python",
-				"string.quoted.multi.python"
+				"string.quoted.multi.python",
+				"string.quoted.back.inno",
+				"string.quoted.pascal"
 			],
 			"settings": {
 				"foreground": "#00ffff"
@@ -526,6 +540,17 @@
 			],
 			"settings": {
 				"foreground": "#ff80ff"
+			}
+		},
+		//Macro
+		{
+			"scope": [
+				//inno setup
+				"keyword.other.inno"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#008000"
 			}
 		}
 	],
