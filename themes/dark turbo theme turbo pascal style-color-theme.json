@@ -327,7 +327,8 @@
 				"entity.name.variable.parameter",
 				"variable.parameter",
 				"meta.scriptblock.powershell",
-				"variable.other.jsdoc"
+				"variable.other.jsdoc",
+				"meta.group.simple.subexpression.powershell"
 			],
 			"settings": {
 				"foreground": "#fba300",
@@ -405,7 +406,8 @@
 				"meta.method.groovy",
 				"source.groovy",
 				"meta.function-call.python",
-				"source.inno"
+				"source.inno",
+				"source.powershell"
 			],
 			"settings": {
 				"foreground": "#FFFF00",
@@ -421,7 +423,7 @@
 			],
 			"settings": {
 				"foreground": "#ffe600",
-				"fontStyle": "underline"
+				"fontStyle": "bold underline"
 			}
 		},
 		// {
@@ -459,6 +461,8 @@
 				"punctuation.separator.element.python",
 				"keyword.other.hashtable.begin.powershell",
 				"keyword.other.array.begin.powershell",
+				"punctuation.definition.subexpression.powershell",
+				"punctuation.definition.variable.powershell",
 				"meta.section.pascal"
 			],
 			"settings": {
