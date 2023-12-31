@@ -5,12 +5,19 @@ pool:
   vmImage: ubuntu-latest
 
 
-
 steps:
-- bash: |
-    echo ">>> Publish"
-    yarn deploy
+- task: Npm@1
+  inputs:
+    command: 'install'
+
+- task: Bash@3
   displayName: Publish
   env:
     VSCE_PAT: $(VSCE_PAT)
-
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      
+      echo ">>> Publish"
+      yarn deploy
