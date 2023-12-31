@@ -17,5 +17,11 @@
         "path": "./themes/dark turbo theme turbo pascal style-color-theme.json"
       }
     ]
+  },
+  "pricing": "Free",
+  "icon": "res/icon.png",
+  "galleryBanner": {
+    "color": "#aac800",
+    "theme": "dark"
   }
 }
