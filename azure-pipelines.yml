@@ -1,0 +1,16 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+
+
+steps:
+- bash: |
+    echo ">>> Publish"
+    yarn deploy
+  displayName: Publish
+  env:
+    VSCE_PAT: $(VSCE_PAT)
+
