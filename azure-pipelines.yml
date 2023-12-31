@@ -20,4 +20,5 @@ steps:
       # Write your commands here
       
       echo ">>> Publish"
+      yarn install
       npm run deploy
