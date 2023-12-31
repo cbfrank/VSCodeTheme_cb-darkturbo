@@ -224,6 +224,9 @@
 				"keyword.control.switch",
 				"keyword.control.case",
 				"keyword.control.powershell",
+				"keyword.control.shell",
+				"keyword.control.then.shell",
+				"keyword.control.else.shell"
 			],
 			"settings": {
 				"foreground": "#59afff",
@@ -328,7 +331,10 @@
 				"variable.parameter",
 				"meta.scriptblock.powershell",
 				"variable.other.jsdoc",
-				"meta.group.simple.subexpression.powershell"
+				"meta.group.simple.subexpression.powershell",
+				"string.unquoted.argument",
+				"string.unquoted.argument.shell",
+				"constant.other.option.dash.shell"
 			],
 			"settings": {
 				"foreground": "#fba300",
@@ -378,7 +384,9 @@
 				"entity.name.variable.local",
 				"variable.other.readwrite",
 				"variable.other.readwrite.powershell",
-				"variable.other.pascal"
+				"variable.other.pascal",
+				"variable.other.assignment.shell",
+				"variable.other.normal.shell"
 			],
 			"settings": {
 				"foreground": "#ffbaa6"
@@ -413,13 +421,14 @@
 				"foreground": "#FFFF00",
 			}
 		},
-		//build in method, utility functions
+		//buildin method, utility functions
 		{
 			"scope": [
 				"support.function.powershell",
 				"support.function.string.sql",
 				"support.type.builtin",
-				"support.type.primitive"
+				"support.type.primitive",
+				"support.function.builtin.shell"
 			],
 			"settings": {
 				"foreground": "#ffe600",
@@ -463,7 +472,8 @@
 				"keyword.other.array.begin.powershell",
 				"punctuation.definition.subexpression.powershell",
 				"punctuation.definition.variable.powershell",
-				"meta.section.pascal"
+				"meta.section.pascal",
+				"punctuation.definition.variable.shell"
 			],
 			"settings": {
 				"foreground": "#00ff00"
@@ -496,7 +506,8 @@
 				"comment.line.double-slash",
 				"comment.line.number-sign.python",
 				"comment.line.semicolon.inno",
-				"comment.line.pascal"
+				"comment.line.pascal",
+				"comment.line.number-sign.shell"
 			],
 			"settings": {
 				"foreground": "#C0C0C0",
