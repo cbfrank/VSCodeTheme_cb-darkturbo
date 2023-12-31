@@ -20,5 +20,7 @@ steps:
       # Write your commands here
       
       echo ">>> Publish"
+      git config user.email "cbfrank@withcb.cn"
+      git config user.name "cb"
       yarn install
       npm run deploy
