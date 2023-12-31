@@ -23,5 +23,11 @@
   "galleryBanner": {
     "color": "#aac800",
     "theme": "dark"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  },
+  "scripts": {
+    "deploy": "vsce publish --yarn"
   }
 }
