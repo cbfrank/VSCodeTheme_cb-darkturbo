@@ -399,7 +399,10 @@
 				"support.type.property-name.json",
 				"meta.object-literal.key",
 				"keyword.other.definition.ini",
-				"entity.name.section.inno"
+				"entity.name.section.inno",
+
+				//for log
+				"log.date"
 				
 			],
 			"settings": {
@@ -490,7 +493,10 @@
 				"comment.block.js",
 				"comment.block.razor",
 				"comment.block.groovy",
-				"comment.block.javadoc.java"
+				"comment.block.javadoc.java",
+
+				//for log
+				"text.log"
 			],
 			"settings": {
 				"foreground": "#57a64a",
@@ -507,7 +513,10 @@
 				"comment.line.number-sign.python",
 				"comment.line.semicolon.inno",
 				"comment.line.pascal",
-				"comment.line.number-sign.shell"
+				"comment.line.number-sign.shell",
+
+				//for log
+				"log.constant"
 			],
 			"settings": {
 				"foreground": "#C0C0C0",
@@ -531,7 +540,10 @@
 				"string.quoted.single.python",
 				"string.quoted.multi.python",
 				"string.quoted.back.inno",
-				"string.quoted.pascal"
+				"string.quoted.pascal",
+
+				//for log
+				"log.string"
 			],
 			"settings": {
 				"foreground": "#00ffff"
