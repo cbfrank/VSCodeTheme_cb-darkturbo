@@ -187,7 +187,10 @@
 				"keyword.other.special-method.dockerfile",
 
 				//pascal
-				"storage.type.pascal"
+				"storage.type.pascal",
+
+				//for log
+				"log.error"
 
 			],
 			"settings": {
@@ -243,7 +246,10 @@
 				"keyword.control.loop",
 				"keyword.control.powershell",
 				"keyword.control.trycatch",
-				"keyword.control.pascal"
+				"keyword.control.pascal",
+
+				//for log
+				"log.exception"
 			],
 			"settings": {
 				"foreground": "#FF0080",
@@ -418,7 +424,10 @@
 				"source.groovy",
 				"meta.function-call.python",
 				"source.inno",
-				"source.powershell"
+				"source.powershell",
+
+				//for log
+				"log.warning"
 			],
 			"settings": {
 				"foreground": "#FFFF00",
