@@ -264,7 +264,8 @@
 				"constant.language",
 				"variable.other.constant",
 				"entity.name.variable.enum-member",
-				"constant.character.entity.tsx"
+				"constant.character.entity.tsx",
+				"variable.other.constant.property.tsx"
 			],
 			"settings": {
 				"foreground": "#FFffff",
@@ -406,6 +407,7 @@
 				"meta.object-literal.key",
 				"keyword.other.definition.ini",
 				"entity.name.section.inno",
+				"storage.type.class.jsdoc",
 
 				//for log
 				"log.date"
