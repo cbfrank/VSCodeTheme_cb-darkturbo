@@ -265,7 +265,8 @@
 				"variable.other.constant",
 				"entity.name.variable.enum-member",
 				"constant.character.entity.tsx",
-				"variable.other.constant.property.tsx"
+				"variable.other.constant.property.tsx",
+				"variable.other.constant.property.ts"
 			],
 			"settings": {
 				"foreground": "#FFffff",
