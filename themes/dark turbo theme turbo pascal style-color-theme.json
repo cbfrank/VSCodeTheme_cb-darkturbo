@@ -185,6 +185,7 @@
 				"storage.type.primitive.array.java",
 				"keyword.other.package.java",
 				"keyword.other.special-method.dockerfile",
+				"support.type.primitive.tsx",
 
 				//pascal
 				"storage.type.pascal",
@@ -201,7 +202,9 @@
 		{
 			"scope": [
 				"storage.modifier",
-				"keyword.control.cshtml.transition"
+				"keyword.control.cshtml.transition",
+				"storage.type.record.cs",
+				"storage.type.struct.cs"
 			],
 			"settings": {
 				"foreground": "#FF0000",
@@ -247,6 +250,9 @@
 				"keyword.control.powershell",
 				"keyword.control.trycatch",
 				"keyword.control.pascal",
+				"keyword.control.exception.try.cs",
+				"keyword.control.exception.catch.cs",
+				"keyword.control.exception.finally.cs",
 
 				//for log
 				"log.exception"
@@ -322,16 +328,6 @@
 				"foreground": "#1d6478"
 			}
 		},
-		//record
-		{
-			"scope": [
-				"storage.type.record.cs"
-			],
-			"settings": {
-				"foreground": "#1d6478",
-				"fontStyle": "bold"
-			}
-		},
 		//enum
 		{
 			"scope": [				
@@ -339,6 +335,16 @@
 			],
 			"settings": {
 				"foreground": "#80ff00"
+			}
+		},
+		//property of event, delegate
+		{
+			"scope": [
+				"entity.name.function.member"
+			],
+			"settings": {
+				"foreground": "#7575ff",
+				"fontStyle": "bold"
 			}
 		},
 		//function parameters
@@ -498,7 +504,8 @@
 				"punctuation.definition.subexpression.powershell",
 				"punctuation.definition.variable.powershell",
 				"meta.section.pascal",
-				"punctuation.definition.variable.shell"
+				"punctuation.definition.variable.shell",
+				"punctuation.accessor.optional.tsx"
 			],
 			"settings": {
 				"foreground": "#00ff00"
@@ -585,7 +592,8 @@
 		{
 			"scope": [
 				"meta.interpolation",
-				"storage.type.generic.java"
+				"storage.type.generic.java",
+				"entity.name.type.cs"
 			],
 			"settings": {
 				"foreground": "#ff80ff"
