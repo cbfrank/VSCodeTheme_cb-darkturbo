@@ -322,6 +322,16 @@
 				"foreground": "#1d6478"
 			}
 		},
+		//record
+		{
+			"scope": [
+				"storage.type.record.cs"
+			],
+			"settings": {
+				"foreground": "#1d6478",
+				"fontStyle": "bold"
+			}
+		},
 		//enum
 		{
 			"scope": [				
